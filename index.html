@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoshop - магазин автоєлектроники</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/jquery-2.2.3.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="content">
+            <img src="img/logo.png" alt="logo">
+            <div class="nav_contact">
+                <p>(097) 963-01-48</p>
+                <div class="nav_button">Заказать звонок</div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="content">
+            <div class="left_col">
+                <h1> Видеопарктроник - <span>автоновинка 2017</span> года</h1>
+                <p>Закажите видеопарктроник до конца дня и получите в подарок солнцезащитный козырек!</p>
+                <img src="img/timer.png" alt="timer">
+                <a href="#"><img src="img/header_cta.png" alt="timer" class="cta"></a>
+            </div>
+            <div class="right_col">
+                <img src="img/header_img.png" alt="timer">
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <h2><span>Характеристики</span> видеопарктроника</h2>
+        <div class="sep_line"></div>
+        <section class="char">
+
+            <div>
+                <h4>Матрица камеры:</h4>
+                <p>цветная CMD</p>
+                <h4>Минимальная освещенность:</h4>
+                <p>0.2 LUX</p>
+                <h4>ТВ-система:</h4>
+                <p>PAL</p>
+            </div>
+            <div>
+                <h4>Разрешение:</h4>
+                <p>420 ТВ-линий</p>
+                <h4>Количество пикселей:</h4>
+                <p>648 x 488</p>
+            </div>
+            <div>
+                <img src="img/char1.png" alt="char1">
+            </div>
+            <div>
+                <h4>Максимальная защита от воды и пыли:</h4>
+                <p>IP68</p>
+                <h4>Диапазон рабочих температур:</h4>
+                <p>от -30&deg;C до +65&deg;C</p>
+                <h4>Габаритные размеры рамки номерного знака:</h4>
+                <p>545 х 145 мм</p>
+            </div>
+            <div>
+                <h4>Питание:</h4>
+                <p>12 V</p>
+                <h4>Угол обзора:</h4>
+                <p>170&deg;</p>
+                <h4>Цвет:</h4>
+                <p>черный, серый</p>
+
+            </div>
+            <div><img src="img/char2.png" alt="char2"></div>
+            <div class="double">
+                <h4>Питание:</h4>
+                <p>
+                    <ul>
+                        <li>Зеркало с монитором 4,3" легко и просто крепится поверх штатного в автомобилях любых марок и типов кузова.</li>
+                        <li>Рамка автомобильного номера со встроенной камерой</li>
+                        <li>Комплект установочных проводов</li>
+                        <li>Упаковка</li>
+                    </ul>
+                </p>
+            </div>
+            <div>
+                <img src="img/char3.png" alt="char3">
+            </div>
+
+        </section>
+        <section>
+            <a href="#"><img src="img/cta_order.png" alt="order" class="cta"></a>
+        </section>
+        <section>
+            <h2>Причины <span>купить видеопарктроник</span> у нас</h2>
+            <div class="sep_line"></div>
+            <div class="reasons">
+                <div>
+                    <img src="img/icons_1.jpg" alt="icon">
+                    <h4>Быстрый и легкий монтаж</h4>
+                    <p>Зеркало с монитором крепится поверх штатного и не требует дополнительных установок.</p>
+                </div>
+                <div>
+                    <img src="img/icons_2.jpg" alt="icon">
+                    <h4>Стоимость</h4>
+                    <p>Цена видеопарктроника у дилера от 19990 руб.Наша цена всего 3990 руб.</p>
+                </div>
+                <div>
+                    <img src="img/icons_3.jpg" alt="icon">
+                    <h4>Экономия</h4>
+                    <p>В случае наезда на препятствие при движении задним ходом, стоимость ремонта бампера от 6000 руб. и срок ремонта от 3‐х дней. Стоимость нашего видеопарктроника всего 3990 руб.</p>
+                </div>
+                <div>
+                    <img src="img/icons_4.jpg" alt="icon">
+                    <h4>Безопасность для пешеходов</h4>
+                    <p>при движении задним ходом (угол обзора нашей камеры 170 градусов)</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>КАК РАБОТАЕТ <span>видеопарктроник?</span></h2>
+            <div class="sep_line"></div>
+
+            <div class="video_cover">
+                <video class="video">
+                    <source src="video/car.mp4" type="video/mp4" />
+                </video>
+
+                <div class="playpause"></div>
+                <script>
+                    $('.video').parent().click(function() {
+                        if ($(this).children(".video").get(0).paused) {
+                            $(this).children(".video").get(0).play();
+                            $(this).children(".playpause").fadeOut();
+                        } else {
+                            $(this).children(".video").get(0).pause();
+                            $(this).children(".playpause").fadeIn();
+                        }
+                    });
+                </script>
+
+
+            </div>
+
+        </section>
+        <section>
+            <h2>КАК ВЫ <span>ЭКОНОМИТЕ?</span></h2>
+            <div class="sep_line"></div>
+            <div class="econom">
+                <div>
+                    <p class="first_line">Ремонт бампера стоит от </p>
+                    <p class="second_line"><span> 6000</span> рублей</p>
+
+                    <img src="img/econom_1.jpg" alt="values">
+                </div>
+                <div>
+                    <p class="first_line">видеопарктроник с подарком стоит</p>
+                    <p class="second_line">ВСЕГО <span>3990</span> рублей</p>
+                    <img src="img/econom_2.jpg" alt="incom">
+                </div>
+            </div>
+            <img src="img/cta_order.png" alt="order" class="cta">
+        </section>
+        <section>
+            <h2>ОТЗЫВЫ О НАШЕМ <span>видеопарктронике</span></h2>
+            <div class="sep_line"></div>
+
+        </section>
+        <h2>ДОсТАвКА и ГАРАНТИИ</h2>
+        <div class="sep_line"></div>
+        <section>
+
+            <div>
+                <h3>ГАРАНТИЯ</h3>
+                <ul>
+                    <li>Гарантия на изделие составляет 1 год.</li>
+                    <li>Срок сервисного обслуживания составляет 2 года. </li>
+                    <li>Если вы получили товар и он вам не понравился, мы гарантируем возврат или обмен в течение 14 дней. </li>
+                </ul>
+
+                <p>Мы заботимся о своей репутации, клиенты для нас на первом месте!</p>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="content">
+            <div class="left_col">
+
+                <p>Закажите видеопарктроник до конца дня и получите в подарок солнцезащитный козырек!</p>
+                <img src="img/timer.png" alt="timer">
+                <img src="img/header_cta.png" alt="timer">
+            </div>
+            <div class="right_col">
+                <img src="img/header_img.png" alt="timer">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
