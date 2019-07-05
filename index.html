@@ -1,49 +1,46 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autoshop - магазин автоєлектроники</title>
-    <link rel="stylesheet" href="css/fonts.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/mobile.css">
+    <!--Подключаем библиотеку-->
     <script src="js/jquery-2.2.3.min.js"></script>
 </head>
 
 <body>
-
     <nav>
-        <div class="content">
-            <img src="img/logo.png" alt="logo">
-            <div class="nav_contact">
-                <p>(097) 963-01-48</p>
+        <div class="row">
+            <div class="col4 col"><img src="img/logo.png" alt="logo"></div>
+            <div class="col4 col txt_right  nav_contact">
+                <div class="nav_text">(097) 963-01-48</div>
                 <div class="nav_button">Заказать звонок</div>
             </div>
         </div>
     </nav>
-
     <header>
-        <div class="content">
-            <div class="left_col">
+        <div class="row">
+            <div class="col2 col header_txt">
                 <h1> Видеопарктроник - <span>автоновинка 2017</span> года</h1>
                 <p>Закажите видеопарктроник до конца дня и получите в подарок солнцезащитный козырек!</p>
                 <img src="img/timer.png" alt="timer">
                 <a href="#"><img src="img/header_cta.png" alt="timer" class="cta"></a>
             </div>
-            <div class="right_col">
-                <img src="img/header_img.png" alt="timer">
-            </div>
+            <div class="col2 col"><img src="img/header_img.png" alt="parktronic"></div>
         </div>
     </header>
-
     <main>
 
-        <h2><span>Характеристики</span> видеопарктроника</h2>
-        <div class="sep_line"></div>
-        <section class="char">
+        <!--characteristics-->
+        <div class="row row_centered">
+            <h2><span>Характеристики</span> видеопарктроника</h2>
+        </div>
 
-            <div>
+        <div class="row charactTxt">
+            <div class="col3 col">
                 <h4>Матрица камеры:</h4>
                 <p>цветная CMD</p>
                 <h4>Минимальная освещенность:</h4>
@@ -51,16 +48,16 @@
                 <h4>ТВ-система:</h4>
                 <p>PAL</p>
             </div>
-            <div>
+            <div class="col3 col mobile_makeFirst">
                 <h4>Разрешение:</h4>
                 <p>420 ТВ-линий</p>
                 <h4>Количество пикселей:</h4>
                 <p>648 x 488</p>
             </div>
-            <div>
-                <img src="img/char1.png" alt="char1">
-            </div>
-            <div>
+            <div class="col3 col"><img src="img/char1.png" alt="char1"></div>
+        </div>
+        <div class="row charactTxt">
+            <div class="col3 col">
                 <h4>Максимальная защита от воды и пыли:</h4>
                 <p>IP68</p>
                 <h4>Диапазон рабочих температур:</h4>
@@ -68,20 +65,21 @@
                 <h4>Габаритные размеры рамки номерного знака:</h4>
                 <p>545 х 145 мм</p>
             </div>
-            <div>
+            <div class="col3 col mobile_makeFirst">
                 <h4>Питание:</h4>
                 <p>12 V</p>
                 <h4>Угол обзора:</h4>
                 <p>170&deg;</p>
                 <h4>Цвет:</h4>
                 <p>черный, серый</p>
-
             </div>
-            <div><img src="img/char2.png" alt="char2"></div>
-            <div class="double">
+            <div class="col3 col"><img src="img/char2.png" alt="char2"></div>
+        </div>
+        <div class="row charactTxt">
+            <div class="col2 col">
                 <h4>Питание:</h4>
                 <p>
-                    <ul>
+                    <ul class="desh_ul">
                         <li>Зеркало с монитором 4,3" легко и просто крепится поверх штатного в автомобилях любых марок и типов кузова.</li>
                         <li>Рамка автомобильного номера со встроенной камерой</li>
                         <li>Комплект установочных проводов</li>
@@ -89,125 +87,146 @@
                     </ul>
                 </p>
             </div>
-            <div>
-                <img src="img/char3.png" alt="char3">
-            </div>
+            <div class="col3 col"><img src="img/char3.png" alt="char3"></div>
+        </div>
+        <div class="row row_centered">
+            <button class="order"></button>
+        </div>
 
-        </section>
-        <section>
-            <a href="#"><img src="img/cta_order.png" alt="order" class="cta"></a>
-        </section>
-        <section>
+        <!--reasons-->
+        <div class="row row_centered">
             <h2>Причины <span>купить видеопарктроник</span> у нас</h2>
-            <div class="sep_line"></div>
-            <div class="reasons">
-                <div>
-                    <img src="img/icons_1.jpg" alt="icon">
-                    <h4>Быстрый и легкий монтаж</h4>
-                    <p>Зеркало с монитором крепится поверх штатного и не требует дополнительных установок.</p>
-                </div>
-                <div>
-                    <img src="img/icons_2.jpg" alt="icon">
-                    <h4>Стоимость</h4>
-                    <p>Цена видеопарктроника у дилера от 19990 руб.Наша цена всего 3990 руб.</p>
-                </div>
-                <div>
-                    <img src="img/icons_3.jpg" alt="icon">
-                    <h4>Экономия</h4>
-                    <p>В случае наезда на препятствие при движении задним ходом, стоимость ремонта бампера от 6000 руб. и срок ремонта от 3‐х дней. Стоимость нашего видеопарктроника всего 3990 руб.</p>
-                </div>
-                <div>
-                    <img src="img/icons_4.jpg" alt="icon">
-                    <h4>Безопасность для пешеходов</h4>
-                    <p>при движении задним ходом (угол обзора нашей камеры 170 градусов)</p>
-                </div>
-            </div>
-        </section>
-        <section>
+        </div>
+
+        <div class="row">
+            <dic class="col4 col txt_center">
+                <img src="img/icons_1.jpg" alt="icon">
+                <h4>Быстрый и легкий монтаж</h4>
+                <p>Зеркало с монитором крепится поверх штатного и не требует дополнительных установок.</p>
+            </dic>
+            <dic class="col4 col txt_center">
+                <img src="img/icons_2.jpg" alt="icon">
+                <h4>Стоимость</h4>
+                <p>Цена видеопарктроника у дилера от 19990 руб.Наша цена всего 3990 руб.</p>
+            </dic>
+            <dic class="col4 col txt_center">
+                <img src="img/icons_3.jpg" alt="icon">
+                <h4>Экономия</h4>
+                <p>В случае наезда на препятствие при движении задним ходом, стоимость ремонта бампера от 6000 руб. и срок ремонта от 3‐х дней. Стоимость нашего видеопарктроника всего 3990 руб.</p>
+            </dic>
+            <dic class="col4 col txt_center">
+                <img src="img/icons_4.jpg" alt="icon">
+                <h4>Безопасность для пешеходов</h4>
+                <p>при движении задним ходом (угол обзора нашей камеры 170 градусов)</p>
+            </dic>
+        </div>
+        <!--video-->
+        <div class="row row_centered">
             <h2>КАК РАБОТАЕТ <span>видеопарктроник?</span></h2>
-            <div class="sep_line"></div>
+        </div>
 
-            <div class="video_cover">
-                <video class="video">
-                    <source src="video/car.mp4" type="video/mp4" />
-                </video>
-
-                <div class="playpause"></div>
-                <script>
-                    $('.video').parent().click(function() {
-                        if ($(this).children(".video").get(0).paused) {
-                            $(this).children(".video").get(0).play();
-                            $(this).children(".playpause").fadeOut();
-                        } else {
-                            $(this).children(".video").get(0).pause();
-                            $(this).children(".playpause").fadeIn();
-                        }
-                    });
-                </script>
+        <div class="row row_centered">
+            <img src="img/video.png" alt="video">
+        </div>
 
 
-            </div>
-
-        </section>
-        <section>
+        <!--economy-->
+        <div class="row row_centered">
             <h2>КАК ВЫ <span>ЭКОНОМИТЕ?</span></h2>
-            <div class="sep_line"></div>
-            <div class="econom">
-                <div>
-                    <p class="first_line">Ремонт бампера стоит от </p>
-                    <p class="second_line"><span> 6000</span> рублей</p>
-
-                    <img src="img/econom_1.jpg" alt="values">
-                </div>
-                <div>
-                    <p class="first_line">видеопарктроник с подарком стоит</p>
-                    <p class="second_line">ВСЕГО <span>3990</span> рублей</p>
-                    <img src="img/econom_2.jpg" alt="incom">
+        </div>
+        <div class="row">
+            <div class="col2 col">
+                <p class="econom">Ремонт бампера стоит от </p>
+                <p class=" econom second_line"><span> 6000</span> рублей</p>
+                <img src="img/econom_1.jpg" alt="values">
+            </div>
+            <div class="col2 col">
+                <p class="econom">видеопарктроник с подарком стоит</p>
+                <p class="econom second_line">ВСЕГО <span>3990</span> рублей</p>
+                <img src="img/econom_2.jpg" alt="incom">
+            </div>
+        </div>
+        <div class="row row_centered"><button class="order"></button></div>
+        <!--feedback-->
+        <div class="row row_centered">
+            <h2>ОТЗЫВЫ О НАШЕМ <span>видеопарктронике</span></h2>
+        </div>
+        <div class="row row_centered">
+            <div class="col4"><img src="img/feadback_img1.png" alt="feeadback"></div>
+            <div class="col3_4">
+                <div class="feedbackTxt txt_right">
+                    <p>Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких устройств что у них либо дизайн уродский огромный — в полтора раза больше штатного, а я вообще не люблю заднее зеркало, так как за 3 года вождения рабочих
+                        "каблучков" типа Кангу и Берлинго вообще привык без него обходится, либо тех. данные никакие — камеры очень плохого качества… Уже думал что печаль… :( Но вот за пару дней поисков наткнулся на то о чем мечтал действительно — HD
+                        Recorder. Нашел его у одного из драйвечан, и у других. Все в восторге от данного устройства. Качество видео очень хорошее, в машине не видно его вообще, крепления на штатное зеркало любой машины, вообщем то что доктор прописал!</p>
+                    <div class="small_row">
+                        <img src="img/client.png" alt="client">
+                        <p><b>Константин,</b> <i>г. Днепропетровск</i></p>
+                    </div>
                 </div>
             </div>
-            <img src="img/cta_order.png" alt="order" class="cta">
-        </section>
-        <section>
-            <h2>ОТЗЫВЫ О НАШЕМ <span>видеопарктронике</span></h2>
-            <div class="sep_line"></div>
-
-        </section>
-        <h2>ДОсТАвКА и ГАРАНТИИ</h2>
-        <div class="sep_line"></div>
-        <section>
-
-            <div>
+        </div>
+        <!--garanty-->
+        <div class="row row_centered">
+            <h2>ДОсТАвКА и ГАРАНТИИ</h2>
+        </div>
+        <div class="row">
+            <div class="col">
                 <h3>ГАРАНТИЯ</h3>
                 <ul>
                     <li>Гарантия на изделие составляет 1 год.</li>
                     <li>Срок сервисного обслуживания составляет 2 года. </li>
                     <li>Если вы получили товар и он вам не понравился, мы гарантируем возврат или обмен в течение 14 дней. </li>
                 </ul>
-
-                <p>Мы заботимся о своей репутации, клиенты для нас на первом месте!</p>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
+        </div>
+        <div class="row">
+            <div class="col3 col txt_center"><img src="img/1_pay.png" alt="pay"></div>
+            <div class="col3 col  txt_center"><img src="img/2_garanty.png" alt="garanty"> </div>
+            <div class="col3 col  txt_center"><img src="img/3_money_back.png" alt="money_back"> </div>
+        </div>
+        <div class="row">
+            <div class="col2 col">
+                <h3>ДОСТАВКА И ОПЛАТА ПО РОССИИ</h3>
+                <ul>
+                    <li>Стоимость доставки зависит от Вашего региона-города</li>
+                    <li>Доставка почтой РФ 1 классом от 300 руб. EMS Курьер от 600 руб.</li>
+                    <li>Все заказы отправляем с описью вложения</li>
+                    <li>Сроки доставки от 3 до 7 дней.</li>
+                    <li>Оплата производится при получении товара.</li>
+                </ul>
+            </div>
+            <div class="col2 col">
+                <h3>ДОСТАВКА И ОПЛАТА ПО МОСКВЕ И СПБ</h3>
+                <ul>
+                    <li>Курьером по Москве от 250 руб.</li>
+                    <li>Курьером по Санкт Петербургу от 200 руб.</li>
+                    <li>Сроки доставки 1-2 дня.</li>
+                    <li>Вы также можете забрать и оплатить свой заказ в пункте самовывоза. Стоимость 100 руб.</li>
+                    <li>Ближайший к Вам адрес самовывоза уточняйте по телефону.</li>
+                    <li>Оплата производится наличными при получении.</li>
+                    <li>У Вам есть уникальная возможность вскрыть посылку до ее оплаты!</li>
+                </ul>
+            </div>
+        </div>
 
     </main>
-
     <footer>
-        <div class="content">
-            <div class="left_col">
-
-                <p>Закажите видеопарктроник до конца дня и получите в подарок солнцезащитный козырек!</p>
-                <img src="img/timer.png" alt="timer">
-                <img src="img/header_cta.png" alt="timer">
-            </div>
-            <div class="right_col">
-                <img src="img/header_img.png" alt="timer">
+        <div class="row row_centered">
+            <h2>Закажите свой видеопарктроник <span>до конца дня</span> И получите <span>в подарок</span> антибликовое стекло</h2>
+        </div>
+        <div class="row row_centered">
+            <div class="col2 col"><img src="img/footer_img.jpg" alt="parktronic"></div>
+            <div class="col2 col">
+                <form action="">
+                    <input type="text" placeholder="Введите имя">
+                    <input type="text" placeholder="+7(0__)__________">
+                    <img src="img/timer_small.png" alt="timer">
+                    <button class="order"></button>
+                </form>
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
