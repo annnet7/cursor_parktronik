@@ -284,4 +284,7 @@ form button {
     .mobile_makeFirst {
         order: -1;
     }
+      h2 {
+        max-width: 90%;
+    }
 }
